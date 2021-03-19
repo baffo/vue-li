@@ -1,14 +1,12 @@
 {
-  "name": "vue-li",
+  "name": "@baffo/vue-li",
   "version": "1.0.0",
   "description": "A Vue.js component to lazy load images using the Intersection Observer.",
   "main": "dist/vue-li.cjs.js",
   "module": "dist/vue-li.es.js",
   "unpkg": "dist/vue-li.js",
   "browser": "dist/vue-li.es.js",
-  "author": {
-    "name": "baffo"
-  },
+  "author": "baffo",
   "scripts": {
     "build": "rollit",
     "prepublishOnly": "npm run build",
@@ -51,5 +49,6 @@
     "snapshotSerializers": [
       "jest-serializer-vue"
     ]
-  }
+  },
+  "dependencies": {}
 }
