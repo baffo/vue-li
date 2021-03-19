@@ -10,7 +10,7 @@ This is an opinionated upgrade of the original Vue Lazy Image loading library [v
 ## Usage
 
 ```bash
-npm install vue-li
+npm install vue-li-image
 ```
 
 _**Warning:** You'll need to install the [w3c Intersection Observer polyfill](https://github.com/w3c/IntersectionObserver/tree/master/polyfill) in case you're targeting a browser which doesn't support it._
