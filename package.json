@@ -1,6 +1,6 @@
 {
   "name": "vue-li-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue.js component to lazy load images using the Intersection Observer.",
   "main": "dist/vue-li-image.cjs.js",
   "module": "dist/vue-li-image.es.js",

@@ -1,7 +1,7 @@
-# vue-li
+# vue-li-image
 
-[![npm](https://img.shields.io/npm/v/vue-li.svg)](https://www.npmjs.com/package/vue-li)
-[![npm](https://img.shields.io/npm/dm/vue-li.svg)](https://www.npmjs.com/package/vue-li)
+[![npm](https://img.shields.io/npm/v/vue-li-image.svg)](https://www.npmjs.com/package/vue-li-image)
+[![npm](https://img.shields.io/npm/dm/vue-li-image.svg)](https://www.npmjs.com/package/vue-li-image)
 
 A Vue.js component to lazy load an image automatically when it enters the viewport using the [Intersection Observer API](https://developer.mozilla.org/docs/Web/API/Intersection_Observer_API).
 
@@ -19,7 +19,7 @@ You can register the component globally so it's available in all your apps:
 
 ```js
 import Vue from "vue";
-import { VueLiPlugin } from "vue-li";
+import { VueLiPlugin } from "vue-li-image";
 
 Vue.use(VueLiPlugin);
 ```
@@ -27,7 +27,7 @@ Vue.use(VueLiPlugin);
 Or use it locally in any of your components:
 
 ```js
-import VueLi from "vue-li";
+import VueLi from "vue-li-image";
 
 export default {
   components: {
